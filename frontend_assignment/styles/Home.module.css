@@ -21,6 +21,17 @@
     height: 70px;
 }
 
+.seperator {
+    margin: 20px;
+}
+
+.textField {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 2px;
+}
+
 .button {
     padding: 10px 16px;
     border: 1px solid white;
@@ -28,6 +39,7 @@
     width: 200px;
     text-align: center;
     cursor: pointer;
+    margin-top:10px;
 }
 
 .button:hover {
@@ -53,5 +65,10 @@
 .description {
     margin: 2rem 0;
     line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.greetings {
+    margin-top: 0.5rem;
     font-size: 1.5rem;
 }
